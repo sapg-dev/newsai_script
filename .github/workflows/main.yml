@@ -15,17 +15,17 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'  # Specify your Python version
+          python-version: '3.9'
 
       - name: Install dependencies
         run: |
-          pip install pandas requests advertools  # Add any other dependencies here
+          pip install pandas requests advertools
 
       - name: Run Sitemap Extraction
-        run: python ./news_react/site.py  # Update the script name and path appropriately
+        run: python ./site.py
 
       - name: Run YouTube Videos Fetching
-        run: python ./news_react/youtube.py  # Update the script name and path appropriately
+        run: python ./youtube.py
 
       - name: Run Concatenation
-        run: python ./news_react/concatenation.py  # Update the script name and path appropriately
+        run: python ./concatenation.py
