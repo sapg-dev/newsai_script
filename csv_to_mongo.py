@@ -3,9 +3,9 @@ from pymongo import MongoClient
 import urllib.parse
 
 
-username = urllib.parse.quote_plus('blue-sitemaps') #has to be removed for production
-password = urllib.parse.quote_plus('h72f4X9OnN396p2P') #has to be removed for production
-cluster = 'blue.hgntyje.mongodb.net' #has to be removed for production
+username = urllib.parse.quote_plus('xxxxxxx') #has to be removed for production
+password = urllib.parse.quote_plus('xxxxxxxxx') #has to be removed for production
+cluster = 'xxxxxxx' #has to be removed for production
 
 
 csv_file_path = 'data/sitemap.csv'
